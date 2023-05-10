@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="732dp"
+    android:background="@drawable/borderlayout4">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="152dp"
+        android:layout_height="38dp"
+        android:hint="My Favorites"
+        android:textColor="#2D6936"
+        android:textColorHint="#2D6936"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="373dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/borderlayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="326dp"
+        android:layout_height="154dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image14"
+        android:foregroundTint="#9EFFE0E0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="334dp"
+        android:layout_height="52dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="David Austin, Who Breathed Life Into
+the Rose, Is Dead at 92"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="373dp"
+        android:layout_height="237dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/borderlayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="328dp"
+        android:layout_height="155dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image15"
+        android:foregroundTint="#9EFFE0E0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="52dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Even on Urban Excursions, Finding
+Mother Nature's Charms"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="511dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView1"
+        android:layout_width="444dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navi_menu1">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="414dp"
+            android:layout_height="50dp"></FrameLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="679dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

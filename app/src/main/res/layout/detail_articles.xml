@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="732dp"
+    android:background="@drawable/borderlayout4">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="412dp"
+        android:layout_height="260dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image16"
+        android:foregroundTint="#9EFFE0E0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#CCE6EA"
+        android:text="VEGETABLES"
+        android:textColor="#2F91EB"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#CCE6EA"
+        android:text="GARDEN"
+        android:textColor="#2F91EB"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_gravity="left"
+        android:background="@drawable/heart"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/button8"
+        android:layout_width="407dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFF"
+        android:gravity="center"
+        android:text="Even on Urban Excursions,
+Finding Mother Nature's Charms"
+        android:textColor="#36455A"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image17"
+        android:foregroundTint="#9EFFE0E0"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="392dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image18"
+        android:foregroundTint="#9EFFE0E0"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="230dp"
+        android:backgroundTint="#FFFF"
+        android:text="Public parks aside, getting a dose of nature can
+be a tricky task during an urban escape. But nat
+ure should and can fit into that city getaway, acc
+ording to Kally Ellis, the founder of the London fl
+orist company McQueens and the in-house florist
+for the Maybourne Hotel Group. “Connecting with
+the natural world wherever you are is a great antid
+ote to jet lag and travel tiredness,” she said. “Plan
+ts and flowers can refresh us, boost our energy
+and help us recalibrate.”"
+        android:textColor="#6A6F7D"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="435dp"
+        tools:ignore="MissingConstraints" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="444dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="414dp"
+            android:layout_height="50dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+        </FrameLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
