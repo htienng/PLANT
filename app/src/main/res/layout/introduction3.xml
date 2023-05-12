@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="412dp"
     android:layout_height="732dp"
-    android:background="#CCFFCC">
+    android:background="#E7E8E3">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -45,20 +45,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <Button
+
+    <TextView
         android:layout_width="256dp"
         android:layout_height="67dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="139dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/borderlayout5"
         android:backgroundTint="#47734D"
+        android:gravity="center"
         android:text="Continue"
-        android:background="@drawable/borderlayout1"
         android:textColor="#FFFFFF"
-        android:textSize="16dp"
+        android:textSize="24dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:layout_editor_absoluteX="78dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
         android:id="@+id/imageView"

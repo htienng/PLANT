@@ -68,115 +68,91 @@
         app:layout_constraintStart_toEndOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
-    <EditText
-        android:id="@+id/editText3"
+
+    <FrameLayout
         android:layout_width="112dp"
         android:layout_height="95dp"
+        android:background="@drawable/borderlayout4"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="23dp"
-        android:background="@drawable/borderlayout4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="173dp"/>
+         <TextView
+            android:id="@+id/textView15"
+            android:layout_width="110dp"
+            android:layout_height="43dp"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="ADDING NEW"
+            android:textColor="#6A6F7D"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="226dp" />
+         <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/Camera"
+            android:backgroundTint="#47734D"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="189dp" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="110dp"
-        android:layout_height="43dp"
-        android:layout_gravity="left"
-        android:layout_marginStart="-110dp"
-        android:layout_marginTop="-45dp"
-        android:gravity="center"
-        android:text="ADDING NEW"
-        android:textColor="#6A6F7D"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
-
-    <Button
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="-73dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/Camera"
-        android:backgroundTint="#47734D"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
-        app:layout_constraintStart_toEndOf="@+id/editText3" />
-
-
-    <EditText
-        android:id="@+id/editText5"
+    <FrameLayout
         android:layout_width="112dp"
         android:layout_height="95dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="23dp"
         android:background="@drawable/borderlayout4"
-        app:layout_constraintStart_toEndOf="@+id/editText4"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="173dp" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="110dp"
+            android:layout_height="43dp"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="SPECIES"
+            android:textColor="#6A6F7D"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="226dp" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/Leaf"
+            android:backgroundTint="#47734D"
+            tools:layout_editor_absoluteX="190dp"
+            tools:layout_editor_absoluteY="189dp" />
 
-    <EditText
-        android:id="@+id/editText4"
+
+    <FrameLayout
         android:layout_width="112dp"
         android:layout_height="95dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="23dp"
         android:background="@drawable/borderlayout4"
-        app:layout_constraintStart_toEndOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="110dp"
-        android:layout_height="43dp"
-        android:layout_gravity="left"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="-45dp"
-        android:gravity="center"
-        android:text="SPECIES"
-        android:textColor="#6A6F7D"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
-
-    <Button
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginEnd="-75dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/Leaf"
-        android:backgroundTint="#47734D"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
-        app:layout_constraintEnd_toStartOf="@+id/textView16" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="110dp"
-        android:layout_height="43dp"
-        android:layout_gravity="left"
-        android:layout_marginTop="-45dp"
-        android:layout_marginEnd="16dp"
-        android:gravity="center"
-        android:text="ARTICLES"
-        android:textColor="#6A6F7D"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="-72dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/Book"
-        android:backgroundTint="#47734D"
-        app:layout_constraintBottom_toTopOf="@+id/textView17"
-        app:layout_constraintStart_toEndOf="@+id/editText5" />
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="173dp" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="110dp"
+            android:layout_height="0dp"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="ARTICLES"
+            android:textColor="#6A6F7D"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="286dp"
+            tools:layout_editor_absoluteY="239dp" />
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/Book"
+            android:backgroundTint="#47734D"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="189dp" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -214,21 +190,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="-120dp"
-        android:layout_marginEnd="-52dp"
-        android:backgroundTint="#D7C8B5"
-        android:text="HUGE PLANTS"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-    <ImageView
+    <TextView
         android:id="@+id/imageView11"
         android:layout_width="299dp"
         android:layout_height="160dp"
@@ -240,31 +202,37 @@
         app:layout_constraintStart_toEndOf="@+id/imageView8" />
 
     <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:text="HUGE PLANTS"
+        android:textColor="#2D6936"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
         android:id="@+id/textView13"
         android:layout_width="159dp"
         android:layout_height="36dp"
         android:layout_gravity="left"
-        android:layout_marginEnd="-100dp"
         android:gravity="center"
         android:text="102 Types of Plants"
         android:textColor="#2D6936"
         android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="433dp" />
 
-    <Button
+    <TextView
         android:id="@+id/button7"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="-115dp"
-        android:layout_marginEnd="-140dp"
-        android:backgroundTint="#D7C8B5"
         android:text="ARTICLES"
         android:textColor="#2D6936"
         android:textSize="18dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="397dp" />
 
     <TextView
         android:id="@+id/textView18"
@@ -325,6 +293,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="444dp"
@@ -335,16 +304,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu">
 
-        <FrameLayout
-            android:id="@+id/container"
-            android:layout_width="414dp"
-            android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/home" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/plus" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/people" />
+        </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black" />
-        </FrameLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

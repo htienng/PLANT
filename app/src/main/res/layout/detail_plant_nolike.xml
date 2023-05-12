@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="732dp"
+    android:background="@drawable/borderlayout4"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="412dp"
+        android:layout_height="260dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image21"
+        android:foregroundTint="#9EFFE0E0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#CCE6EA"
+        android:text="DANGER"
+        android:textColor="#2F91EB"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#CCE6EA"
+        android:text="DECORATION"
+        android:textColor="#2F91EB"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="left"
+        android:background="@drawable/ellipse"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="207dp" />
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left"
+        android:background="@drawable/heartnolike"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+
+    <TextView
+        android:id="@+id/button8"
+        android:layout_width="177dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FFFF"
+        android:gravity="center"
+        android:text="Circle Cactus"
+        android:textColor="#36455A"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="left"
+        android:background="@drawable/star1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="left"
+        android:background="@drawable/star1"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="left"
+        android:background="@drawable/star1"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="left"
+        android:background="@drawable/star1"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="left"
+        android:background="@drawable/star2"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:backgroundTint="#111111"
+        android:text="4.1"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:hint="KINGDOM"
+        android:textColor="#111111"
+        android:textColorHint="#111111"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:layout_width="59dp"
+        android:layout_height="18dp"
+        android:hint="FAMILY"
+        android:textColor="#111111"
+        android:textColorHint="#111111"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:hint="Plantae"
+        android:textColor="#A1A8B9"
+        android:textColorHint="#A1A8B9"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+    <TextView
+        android:layout_width="69dp"
+        android:layout_height="17dp"
+        android:hint="Cactaceae"
+        android:textColor="#A1A8B9"
+        android:textColorHint="#A1A8B9"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="20dp"
+        android:hint="DESCRIPTION"
+        android:textColor="#495566"
+        android:textColorHint="#495566"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="149dp"
+        android:backgroundTint="#FFFF"
+        android:text="The word cactus derives, through Latin, from
+the Ancient Greek κάκτος, kaktos, a name orig
+inally used by Theophrastus for a spiny plant
+whose identity is not certain. Cacti occur in a
+wide range of shapes and sizes. Most cacti live
+in habitats subject to at least some drought."
+        android:textColor="#6A6F7D"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="444dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="414dp"
+            android:layout_height="50dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+        </FrameLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

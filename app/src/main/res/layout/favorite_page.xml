@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_navi_menu1">
+        app:menu="@menu/bottom_nav_menu1">
 
         <FrameLayout
             android:id="@+id/container"

@@ -4,67 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="412dp"
     android:layout_height="732dp"
-    android:background="#47734D">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="171dp"
-        android:layout_height="85dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="328dp"
-        android:text="LIFE"
-        android:textColor="#E7E8E3"
-        android:textSize="60dp"
-        android:textStrokeWidth="0.125dp"
-        android:textStrokeColor="#E7E8E3"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="252dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="328dp"
-        android:text="GREEN"
-        android:textColor="#99DAB3"
-        android:textSize="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:layout_width="58dp"
-        android:layout_height="72dp"
-        android:layout_gravity="left"
-        android:layout_marginStart="-55dp"
-        android:layout_marginTop="332dp"
-        android:background="@drawable/grass"
-        app:layout_constraintStart_toEndOf="@+id/textview_first"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="290dp"
-        android:layout_height="340dp"
-        android:layout_gravity="left"
-        android:layout_marginStart="-140dp"
-        android:layout_marginTop="204dp"
-        android:background="@drawable/Tree"
-        android:drawableLeft="@drawable/Tree"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:background="@drawable/bg">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="10dp"
         android:layout_gravity="left"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="103dp"
         android:background="@drawable/Line1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="653dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

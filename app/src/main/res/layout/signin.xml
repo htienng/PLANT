@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="412dp"
     android:layout_height="732dp"
-    android:background="#FFFFF">
+    android:background="#E7E8E3">
 
     <TextView
         android:id="@+id/textView7"
@@ -71,6 +71,16 @@
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Remember me"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,22 +93,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
-    <Button
+    <TextView
         android:id="@+id/button3"
         android:layout_width="167dp"
         android:layout_height="59dp"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="120dp"
-        android:background="@drawable/borderlayout1"
         android:backgroundTint="#47734D"
         android:ellipsize="middle"
         android:text="Sign In"
+        android:background="@drawable/borderlayout5"
+        android:gravity="center"
         android:textColor="#FFFFFF"
-        android:textSize="16dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -111,39 +123,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
-    <Button
+    <ImageView
         android:id="@+id/button2"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="61dp"
         android:layout_marginTop="41dp"
-        android:background="@drawable/Fb"
-        android:backgroundTint="#47734D"
+        android:background="@drawable/ggle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
-    <Button
+    <ImageView
         android:id="@+id/button4"
-        android:layout_width="45dp"
-        android:layout_height="32dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="75dp"
         android:layout_marginTop="41dp"
-        android:background="@drawable/Fb"
-        android:backgroundTint="#47734D"
+        android:background="@drawable/fbook"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
-    <Button
+    <ImageView
         android:id="@+id/button5"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="82dp"
         android:layout_marginTop="38dp"
         android:background="@drawable/IP"
-        android:backgroundTint="#47734D"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -154,22 +163,24 @@
         android:layout_marginStart="53dp"
         android:layout_marginTop="39dp"
         android:hint="Don’t Have Account?"
-        android:textColor="#2D6936"
-        android:textColorHint="#2D6936"
+        android:textColor="#111111"
+        android:textColorHint="#111111"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-    <Button
-        android:layout_width="130dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/borderlayout1"
+    <TextView
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
         android:hint="Sign Up"
-        android:textColorHint="#2D6936"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="#2D6936"
+        android:textColorHint="#2D6936"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 

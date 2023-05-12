@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="412dp"
+    android:layout_height="732dp"
+    android:background="#CCFFCC"
+    android:foregroundTint="#D7C8B5">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="412dp"
+        android:layout_height="732dp"
+        android:layout_gravity="left"
+        android:background="@drawable/bgcamera"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/library"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shutter"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="617dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/turn"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="414dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView2"
+            android:layout_width="413dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="584dp"
+            app:menu="@menu/bottom_nav_menu2">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
