@@ -11,9 +11,11 @@
         android:id="@+id/editText8"
         android:layout_width="343dp"
         android:layout_height="129dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="36dp"
         android:background="@drawable/borderlayout4"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="494dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
 
     <TextView
         android:id="@+id/textView31"
@@ -25,7 +27,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="590dp" />
+        tools:layout_editor_absoluteY="590dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView33"
@@ -36,7 +39,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="544dp" />
+        tools:layout_editor_absoluteY="544dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView32"
@@ -48,7 +52,8 @@ from specialized structures..."
         android:textSize="18dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="494dp" />
+        tools:layout_editor_absoluteY="494dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView35"
@@ -59,7 +64,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="568dp" />
+        tools:layout_editor_absoluteY="568dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -69,7 +75,8 @@ from specialized structures..."
         android:background="@drawable/image21"
         android:foregroundTint="#9EFFE0E0"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="494dp" />
+        tools:layout_editor_absoluteY="494dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView30"
@@ -80,7 +87,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="544dp" />
+        tools:layout_editor_absoluteY="544dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView34"
@@ -91,7 +99,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="526dp" />
+        tools:layout_editor_absoluteY="526dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView29"
@@ -102,15 +111,18 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="526dp" />
+        tools:layout_editor_absoluteY="526dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="343dp"
         android:layout_height="129dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="35dp"
         android:background="@drawable/borderlayout4"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="332dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
 
     <TextView
         android:id="@+id/textView27"
@@ -122,7 +134,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="428dp" />
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView26"
@@ -134,7 +147,8 @@ from specialized structures..."
         android:textSize="18dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="332dp" />
+        tools:layout_editor_absoluteY="332dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -144,7 +158,8 @@ from specialized structures..."
         android:background="@drawable/image20"
         android:foregroundTint="#9EFFE0E0"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="332dp" />
+        tools:layout_editor_absoluteY="332dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView25"
@@ -155,7 +170,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="406dp" />
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView24"
@@ -166,7 +182,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="382dp" />
+        tools:layout_editor_absoluteY="382dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
@@ -177,7 +194,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="364dp" />
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView21"
@@ -188,7 +206,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="382dp" />
+        tools:layout_editor_absoluteY="382dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView20"
@@ -199,7 +218,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="364dp" />
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -249,7 +269,8 @@ from specialized structures..."
         android:layout_height="129dp"
         android:background="@drawable/borderlayout4"
         tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -259,7 +280,8 @@ from specialized structures..."
         android:background="@drawable/image19"
         android:foregroundTint="#9EFFE0E0"
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="97dp"
@@ -270,7 +292,8 @@ from specialized structures..."
         android:textSize="18dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="75dp"
@@ -280,7 +303,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="59dp"
@@ -290,7 +314,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="47dp"
@@ -300,7 +325,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="69dp"
@@ -310,7 +336,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="95dp"
@@ -320,7 +347,8 @@ from specialized structures..."
         android:textColorHint="#A1A8B9"
         android:textSize="14dp"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="247dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="174dp"
@@ -331,7 +359,8 @@ from specialized structures..."
         android:textColorHint="#495566"
         android:textSize="13dp"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="269dp" />
+        tools:layout_editor_absoluteY="269dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

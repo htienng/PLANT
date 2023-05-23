@@ -63,20 +63,20 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
-    <Button
+    <TextView
         android:layout_width="91dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="-57dp"
         android:background="@drawable/borderlayout1"
         android:backgroundTint="#47734D"
         android:ellipsize="middle"
         android:text="Change"
+        android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="13dp"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView19"
@@ -113,7 +113,7 @@
         tools:layout_editor_absoluteY="217dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
@@ -158,20 +158,19 @@
         tools:layout_editor_absoluteY="679dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <TextView
         android:id="@+id/button8"
-        android:layout_width="161dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="11dp"
+        android:layout_width="137dp"
+        android:layout_height="31dp"
         android:backgroundTint="#FFFF"
         android:text="My Address"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:id="@+id/button9"
         android:layout_width="28dp"
         android:layout_height="32dp"
@@ -192,19 +191,17 @@
         tools:ignore="MissingConstraints" />
 
 
-    <Button
-        android:layout_width="189dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="-10dp"
-        android:layout_marginTop="18dp"
-        android:backgroundTint="#FFFF"
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="28dp"
         android:text="Notifications"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/button11"
-        app:layout_constraintTop_toBottomOf="@+id/button8" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:id="@+id/button11"
         android:layout_width="28dp"
         android:layout_height="30dp"
@@ -220,57 +217,52 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints" />
 
 
-    <Button
+    <TextView
         android:id="@+id/button10"
-        android:layout_width="189dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginBottom="9dp"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
         android:backgroundTint="#FFFF"
         android:text="Species"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/view3"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="362dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:layout_width="28dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginEnd="-43dp"
-        android:layout_marginBottom="9dp"
         android:background="@drawable/species"
-        app:layout_constraintBottom_toTopOf="@+id/view3"
-        app:layout_constraintEnd_toStartOf="@+id/button10" />
-
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view3"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginBottom="2dp"
         android:background="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteY="405dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <TextView
         android:id="@+id/button12"
-        android:layout_width="189dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="194dp"
-        android:layout_marginBottom="11dp"
+        android:layout_width="104dp"
+        android:layout_height="34dp"
         android:backgroundTint="#FFFF"
         android:text="My Arrticle"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:id="@+id/button13"
         android:layout_width="28dp"
         android:layout_height="28dp"
@@ -286,33 +278,30 @@
         android:id="@+id/view4"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginBottom="7dp"
         android:background="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteY="462dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <TextView
         android:id="@+id/button14"
-        android:layout_width="189dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="188dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="123dp"
+        android:layout_height="36dp"
         android:backgroundTint="#FFFF"
         android:text="My Favorites"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/view5"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:layout_width="33dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="-15dp"
         android:background="@drawable/favorite"
-        app:layout_constraintEnd_toStartOf="@+id/button14"
-        app:layout_constraintTop_toBottomOf="@+id/button13" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints" />
 
 
     <View
@@ -320,59 +309,54 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="519dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="519dp" />
 
-    <Button
+    <TextView
         android:id="@+id/button15"
-        android:layout_width="189dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="218dp"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
         android:backgroundTint="#FFFF"
         android:text="Setting"
-        android:textColor="#2D6936"
-        android:textSize="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        android:textColor="#595353"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="531dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="-35dp"
-        android:layout_marginEnd="-43dp"
         android:background="@drawable/setting"
-        app:layout_constraintEnd_toStartOf="@+id/button15"
-        app:layout_constraintTop_toBottomOf="@+id/button15" />
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="531dp"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view6"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="14dp"
         android:background="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button15" />
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
+    <TextView
         android:id="@+id/button3"
         android:layout_width="124dp"
         android:layout_height="51dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="144dp"
         android:background="@drawable/borderlayout1"
         android:backgroundTint="#47734D"
         android:ellipsize="middle"
         android:text="Log Out"
+        android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="16dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view6" />
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="603dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

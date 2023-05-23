@@ -76,7 +76,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp"/>
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
          <TextView
             android:id="@+id/textView15"
             android:layout_width="110dp"
@@ -88,7 +89,8 @@
             android:textSize="15dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="18dp"
-            tools:layout_editor_absoluteY="226dp" />
+            tools:layout_editor_absoluteY="226dp"
+             tools:ignore="MissingConstraints" />
          <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -96,14 +98,16 @@
             android:background="@drawable/Camera"
             android:backgroundTint="#47734D"
             tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="189dp" />
+            tools:layout_editor_absoluteY="189dp"
+             tools:ignore="MissingConstraints" />
 
     <FrameLayout
         android:layout_width="112dp"
         android:layout_height="95dp"
         android:background="@drawable/borderlayout4"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
         <TextView
             android:id="@+id/textView16"
             android:layout_width="110dp"
@@ -115,7 +119,8 @@
             android:textSize="15dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="150dp"
-            tools:layout_editor_absoluteY="226dp" />
+            tools:layout_editor_absoluteY="226dp"
+            tools:ignore="MissingConstraints" />
         <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -123,7 +128,8 @@
             android:background="@drawable/Leaf"
             android:backgroundTint="#47734D"
             tools:layout_editor_absoluteX="190dp"
-            tools:layout_editor_absoluteY="189dp" />
+            tools:layout_editor_absoluteY="189dp"
+            tools:ignore="MissingConstraints" />
 
 
     <FrameLayout
@@ -131,7 +137,8 @@
         android:layout_height="95dp"
         android:background="@drawable/borderlayout4"
         tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
         <TextView
             android:id="@+id/textView17"
             android:layout_width="110dp"
@@ -143,7 +150,8 @@
             android:textSize="15dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="286dp"
-            tools:layout_editor_absoluteY="239dp" />
+            tools:layout_editor_absoluteY="239dp"
+            tools:ignore="MissingConstraints" />
         <ImageView
             android:id="@+id/button2"
             android:layout_width="35dp"
@@ -152,7 +160,8 @@
             android:background="@drawable/Book"
             android:backgroundTint="#47734D"
             tools:layout_editor_absoluteX="324dp"
-            tools:layout_editor_absoluteY="189dp" />
+            tools:layout_editor_absoluteY="189dp"
+            tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -209,7 +218,8 @@
         android:textColor="#2D6936"
         android:textSize="18dp"
         tools:layout_editor_absoluteX="350dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteY="397dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView13"
@@ -221,7 +231,8 @@
         android:textColor="#2D6936"
         android:textSize="15dp"
         tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteY="433dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/button7"
@@ -232,7 +243,8 @@
         android:textColor="#2D6936"
         android:textSize="18dp"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteY="397dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView18"
@@ -303,28 +315,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu">
-
-        <LinearLayout
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/home"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/home" />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/plus" />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/people" />
-        </LinearLayout>
 
     <View
             android:layout_width="match_parent"

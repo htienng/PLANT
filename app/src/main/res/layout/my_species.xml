@@ -57,13 +57,13 @@
         android:layout_width="364dp"
         android:layout_height="124dp"
         android:layout_gravity="left"
-        android:background="@drawable/image14"
+        android:background="@drawable/image133"
         android:foregroundTint="#9EFFE0E0"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="395dp" />
 
-    <Button
+    <ImageView
         android:layout_width="28dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
@@ -75,7 +75,7 @@
         tools:ignore="MissingConstraints" />
 
 
-    <Button
+    <ImageView
         android:layout_width="28dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageView
         android:id="@+id/button9"
         android:layout_width="28dp"
         android:layout_height="32dp"
