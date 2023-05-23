@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="412dp"
     android:layout_height="732dp"
-    android:background="@drawable/Rectangle1">
+    android:background="@drawable/rectangle1">
 
     <TextView
         android:id="@+id/textView5"
@@ -56,7 +56,7 @@
         android:layout_gravity="left"
         android:layout_marginStart="156dp"
         android:layout_marginTop="26dp"
-        android:background="@drawable/Line1"
+        android:background="@drawable/line1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 

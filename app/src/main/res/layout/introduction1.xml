@@ -6,14 +6,4 @@
     android:layout_height="732dp"
     android:background="@drawable/bg">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="10dp"
-        android:layout_gravity="left"
-        android:background="@drawable/Line1"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="653dp"
-        tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

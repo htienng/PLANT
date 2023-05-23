@@ -67,7 +67,7 @@
         android:layout_width="100dp"
         android:layout_height="10dp"
         android:layout_gravity="left"
-        android:background="@drawable/Line2"
+        android:background="@drawable/line2"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="647dp"
         tools:ignore="MissingConstraints" />

@@ -89,7 +89,7 @@
         android:layout_marginTop="23dp"
         android:layout_marginEnd="63dp"
         android:text=" Forgot Password?"
-        android:textColor="#000"
+        android:textColor="#000000"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
@@ -120,7 +120,7 @@
         android:layout_gravity="left"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="4dp"
-        android:background="@drawable/Or"
+        android:background="@drawable/or"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -153,7 +153,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="82dp"
         android:layout_marginTop="38dp"
-        android:background="@drawable/IP"
+        android:background="@drawable/ip"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
